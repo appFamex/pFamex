@@ -1,0 +1,1201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_Layout"
+    tools:context=".pantallas.famex.pFAMEX">
+
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <include
+            android:id="@+id/include"
+            layout="@layout/main_toolbar"
+            app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ScrollView
+            android:id="@+id/scrollView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="59dp"
+            android:background="@drawable/fondofrancia"
+            app:layout_constraintTop_toBottomOf="@+id/include"
+            tools:ignore="MissingConstraints">
+
+            <!--Here Goes my Shit-->
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:layout_constraintBottom_toTopOf="@+id/text1"
+                app:layout_constraintTop_toTopOf="@+id/text1">
+
+                <ImageView
+                    android:id="@+id/fmx_1_txt_titulo"
+                    android:layout_width="70dp"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:src="@drawable/bannerfamex"
+                    app:layout_constraintBottom_toBottomOf="@+id/linearLayout6"
+                    app:layout_constraintEnd_toStartOf="@+id/linearLayout6"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+
+
+                <LinearLayout
+                    android:id="@+id/linearLayout6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="90dp"
+                    android:gravity="top"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toTopOf="@+id/relativeLayout"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    tools:ignore="MissingConstraints">
+
+
+                    <HorizontalScrollView
+                        android:layout_width="wrap_content"
+                        android:layout_height="400dp"
+                        android:layout_gravity="top"
+                        android:layout_marginTop="25dp"
+                        android:layout_marginEnd="21dp"
+                        android:layout_marginBottom="20dp"
+                        android:fadeScrollbars="false"
+                        android:scrollbarAlwaysDrawHorizontalTrack="true"
+                        app:layout_constraintBottom_toTopOf="@+id/banner"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintHorizontal_bias="1.0"
+                        app:layout_constraintStart_toEndOf="@+id/exp_1_txt_titulo"
+                        app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.592">
+
+                        <androidx.constraintlayout.widget.ConstraintLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent">
+
+                            <LinearLayout
+                                android:id="@+id/linearLayout17"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginBottom="30dp"
+                                android:orientation="horizontal"
+                                app:layout_constraintBottom_toBottomOf="parent"
+                                app:layout_constraintStart_toStartOf="parent"
+                                app:layout_constraintTop_toTopOf="parent">
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/FMX_img_perfil"
+                                        android:layout_width="220dp"
+                                        android:layout_height="360dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/fondotextoques"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="vertical"
+                                        app:layout_constraintBottom_toBottomOf="@+id/MENU_img_perfil"
+                                        app:layout_constraintEnd_toEndOf="@+id/MENU_img_perfil"
+                                        app:layout_constraintStart_toStartOf="@+id/MENU_img_perfil"
+                                        app:layout_constraintTop_toTopOf="@+id/MENU_img_perfil">
+
+                                        <TextView
+                                            android:id="@+id/fmx_1_txt_scroll_titulo1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="49dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="10dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="@string/FMX_TXT_SCROLL_T1"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="@+id/MENU_img_perfil" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_8_txt_scroll_1txt"
+                                            android:layout_width="195dp"
+                                            android:layout_height="279dp"
+                                            android:layout_margin="4dp"
+                                            android:fontFamily="@font/helvetica"
+                                            android:gravity="top"
+                                            android:justificationMode="inter_word"
+                                            android:lineSpacingExtra="6dp"
+                                            android:text="@string/FMX_TXT_SCROLL_TXT_1"
+                                            android:textColor="@color/white"
+                                            android:textSize="17sp"
+                                            app:layout_constraintEnd_toEndOf="@+id/MENU_img_perfil"
+                                            app:layout_constraintTop_toBottomOf="@+id/fmx_1_txt_scroll_titulo1" />
+                                    </LinearLayout>
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/secondimage"
+                                        android:layout_width="220dp"
+                                        android:layout_height="360dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:src="@drawable/fodnotextohisto"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="vertical"
+                                        app:layout_constraintBottom_toBottomOf="@+id/secondimage"
+                                        app:layout_constraintEnd_toEndOf="@+id/secondimage"
+                                        app:layout_constraintHorizontal_bias="0.647"
+                                        app:layout_constraintStart_toStartOf="@+id/secondimage"
+                                        app:layout_constraintTop_toTopOf="@+id/secondimage"
+                                        app:layout_constraintVertical_bias="0.15">
+
+                                        <TextView
+                                            android:id="@+id/fmx_2_txt_scroll_titulo2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="49dp"
+                                            android:layout_marginTop="10dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:justificationMode="inter_word"
+                                            android:text="@string/FMX_TXT_SCROLL_T2"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="@+id/secondimage" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_9_txt_scroll_2txt"
+                                            android:layout_width="195dp"
+                                            android:layout_height="253dp"
+                                            android:layout_margin="4dp"
+                                            android:layout_marginTop="4dp"
+                                            android:layout_marginEnd="204dp"
+                                            android:fontFamily="@font/helvetica"
+                                            android:gravity="top"
+                                            android:justificationMode="inter_word"
+                                            android:lineSpacingExtra="6dp"
+                                            android:text="@string/FMX_TXT_SCROLL_TXT_2"
+                                            android:textColor="@color/white"
+                                            android:textSize="17sp"
+                                            app:layout_constraintEnd_toEndOf="@+id/secondimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/fmx_2_txt_scroll_titulo2" />
+
+
+                                    </LinearLayout>
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                                <androidx.constraintlayout.widget.ConstraintLayout
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginEnd="15dp">
+
+                                    <ImageView
+                                        android:id="@+id/thirdimage"
+                                        android:layout_width="220dp"
+                                        android:layout_height="360dp"
+                                        android:layout_gravity="center"
+                                        android:layout_marginTop="10dp"
+                                        android:layout_marginEnd="4dp"
+                                        android:padding="0dp"
+                                        android:src="@drawable/fondotextoobjeti"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toTopOf="parent" />
+
+                                    <LinearLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:gravity="center"
+                                        android:orientation="vertical"
+                                        app:layout_constraintBottom_toBottomOf="@+id/thirdimage"
+                                        app:layout_constraintEnd_toEndOf="@+id/thirdimage"
+                                        app:layout_constraintStart_toStartOf="@+id/thirdimage"
+                                        app:layout_constraintTop_toTopOf="@+id/thirdimage">
+
+
+                                        <TextView
+                                            android:id="@+id/fmx_3_txt_scroll_titulo3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="49dp"
+                                            android:layout_gravity="center"
+                                            android:layout_marginTop="10dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:justificationMode="inter_word"
+                                            android:text="@string/FMX_TXT_SCROLL_T3"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintTop_toTopOf="@+id/thirdimage" />
+
+
+                                        <TextView
+                                            android:id="@+id/fmx_10_txt_scroll_3txt"
+                                            android:layout_width="195dp"
+                                            android:layout_height="279dp"
+                                            android:layout_margin="4dp"
+                                            android:layout_marginEnd="10dp"
+                                            android:fontFamily="@font/helvetica"
+                                            android:gravity="top"
+                                            android:justificationMode="inter_word"
+                                            android:lineSpacingExtra="6dp"
+                                            android:text="@string/FMX_TXT_SCROLL_TXT_3"
+                                            android:textColor="@color/white"
+                                            android:textSize="17sp"
+                                            app:layout_constraintEnd_toEndOf="@+id/thirdimage"
+                                            app:layout_constraintTop_toBottomOf="@+id/fmx_3_txt_scroll_titulo3" />
+                                    </LinearLayout>
+                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                            </LinearLayout>
+                        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                    </HorizontalScrollView>
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/linearLayout6">
+
+
+                    <ImageView
+                        android:id="@+id/banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        android:background="@drawable/bannerporquemexico"
+                        android:foregroundGravity="center" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="119dp"
+                        android:layout_marginTop="5dp"
+                        android:layout_marginBottom="4dp"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/fmx_4_txt_subtitulo"
+                            android:layout_width="match_parent"
+                            android:layout_height="40dp"
+                            android:fontFamily="@font/plateiabold"
+                            android:gravity="center"
+                            android:text="@string/FMX_TXT_SUBT"
+                            android:textColor="@color/white"
+                            android:textSize="23sp" />
+
+                        <TextView
+                            android:id="@+id/fmx_5_txt_leyendaSubT"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/plateiabold"
+                            android:gravity="center"
+                            android:text="@string/FMX_TXT_LEYENDA"
+                            android:textColor="@color/white"
+                            android:textSize="11sp" />
+                    </LinearLayout>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/famexDatos"
+                    android:layout_width="match_parent"
+                    android:layout_height="600dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toTopOf="@+id/relativeLayout3"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/relativeLayout"
+                    tools:ignore="MissingConstraints">
+
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:id="@+id/yearsHead"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="15"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textViewFAMEX1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="2015"
+                                            android:textAlignment="inherit"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textViewFAMEX2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="2019"
+                                            android:textAlignment="inherit"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textViewFAMEX3"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="50dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="2023"
+                                            android:textAlignment="inherit"
+                                            android:textColor="@color/white"
+                                            android:textSize="20sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/lineasVerticales"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_weight="85"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical"></LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:scaleType="fitXY"
+                                        app:srcCompat="@drawable/famex_ic_barra_azul" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <ImageView
+                                        android:id="@+id/imageView4"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent"
+                                        android:scaleType="fitXY"
+                                        app:srcCompat="@drawable/famex_ic_barra_azul" />
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView5"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="match_parent"
+                                            android:scaleType="fitXY"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            app:srcCompat="@drawable/famex_ic_barra_azul" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_6_txt_tabla"
+                                            android:layout_width="0dp"
+                                            android:layout_height="0dp"
+                                            android:layout_marginTop="10dp"
+                                            android:autoText="false"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:text="@string/FMX_TXT_TABLA"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="34sp"
+                                            app:autoSizeTextType="uniform"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="@+id/imageView5"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="@+id/imageView5" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:id="@+id/data"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent">
+
+                            <LinearLayout
+                                android:id="@+id/filaVacia"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="15"
+                                android:orientation="horizontal" />
+
+                            <LinearLayout
+                                android:id="@+id/filaDatos1"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="17"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView6"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginBottom="2dp"
+                                            app:layout_constraintBottom_toTopOf="@+id/fmx_11_colm1"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:src="@drawable/iconosporquemexico1" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_11_colm1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/FMX_TXT_COLM_1"
+                                            android:textColor="@color/white"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX1_1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="240"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/textView118"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:text="505"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/filaDAtos2"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="17"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView7"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginBottom="2dp"
+                                            app:layout_constraintBottom_toTopOf="@+id/fmx_12_colm2"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:src="@drawable/iconosporquemexico2" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_12_colm2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/FMX_TXT_COLM_2"
+                                            android:textColor="@color/white"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX2_1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="32"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX2_2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="48"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/filaDAtos3"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="17"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView89"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginBottom="2dp"
+                                            app:layout_constraintBottom_toTopOf="@+id/fmx_13_colm3"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:src="@drawable/iconosporquemexico3" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_13_colm3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/FMX_TXT_COLM_3"
+                                            android:textAlignment="center"
+                                            android:textColor="@color/white"
+                                            android:textSize="12sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView89" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX3_1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="3500"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX3_2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="4500"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/filaDatos4"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="17"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView95"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginBottom="2dp"
+                                            app:layout_constraintBottom_toTopOf="@+id/fmx_14_colm4"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:src="@drawable/iconosporquemexico4" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_14_colm4"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/FMX_TXT_COLM_4"
+                                            android:textColor="@color/white"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView95" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX4_1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="32000"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX4_2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="45000"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/filaDatos5"
+                                android:layout_width="match_parent"
+                                android:layout_height="0dp"
+                                android:layout_marginTop="10dp"
+                                android:layout_marginBottom="10dp"
+                                android:layout_weight="17"
+                                android:orientation="horizontal">
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <ImageView
+                                            android:id="@+id/imageView96"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="0dp"
+                                            android:layout_marginBottom="2dp"
+                                            app:layout_constraintBottom_toTopOf="@+id/fmx_15_colm5"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent"
+                                            android:src="@drawable/iconosporquemexico5" />
+
+                                        <TextView
+                                            android:id="@+id/fmx_15_colm5"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:text="@string/FMX_TXT_COLM_5"
+                                            android:textColor="@color/white"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toBottomOf="@+id/imageView96" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX5_1"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="16"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+
+                                    <androidx.constraintlayout.widget.ConstraintLayout
+                                        android:layout_width="match_parent"
+                                        android:layout_height="match_parent">
+
+                                        <TextView
+                                            android:id="@+id/txtFMX5_2"
+                                            android:layout_width="match_parent"
+                                            android:layout_height="40dp"
+                                            android:fontFamily="@font/plateiabold"
+                                            android:gravity="center"
+                                            android:text="35"
+                                            android:textColor="@color/white"
+                                            android:textSize="16sp"
+                                            app:layout_constraintBottom_toBottomOf="parent"
+                                            app:layout_constraintEnd_toEndOf="parent"
+                                            app:layout_constraintStart_toStartOf="parent"
+                                            app:layout_constraintTop_toTopOf="parent" />
+                                    </androidx.constraintlayout.widget.ConstraintLayout>
+                                </LinearLayout>
+
+                                <LinearLayout
+                                    android:layout_width="0dp"
+                                    android:layout_height="match_parent"
+                                    android:layout_marginLeft="10dp"
+                                    android:layout_marginRight="10dp"
+                                    android:layout_weight="1"
+                                    android:orientation="vertical">
+
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relativeLayout3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:gravity="top|center"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/famexDatos"
+                    tools:ignore="MissingConstraints">
+
+
+                    <ImageView
+                        android:id="@+id/imageView8"
+                        android:layout_width="match_parent"
+                        android:layout_height="100dp"
+                        android:src="@drawable/botonedicionespas" />
+
+                    <TextView
+                        android:id="@+id/fmx_7_txt_ediciones"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:layout_marginTop="25dp"
+                        android:fontFamily="@font/plateiabold"
+                        android:gravity="left"
+                        android:text="@string/FMX_TXT_EDICIONES"
+                        android:textColor="@color/white"
+                        android:textSize="18sp" />
+
+                </RelativeLayout>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+        </ScrollView>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

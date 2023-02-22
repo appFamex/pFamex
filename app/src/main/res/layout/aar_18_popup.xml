@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".pantallas.configuracion.principal.fragPopUpConfigIdioma"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:id="@+id/container"
+    android:background="@color/transparencia">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginStart="5dp"
+        android:layout_marginEnd="5dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/config_pop_fondo"
+        android:backgroundTint="@color/transparencia"
+        android:backgroundTintMode="screen"
+        android:gravity="center|top">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:orientation="vertical"
+                android:weightSum="30"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:orientation="vertical"
+                    android:layout_marginRight="15dp">
+
+
+                    <ImageView
+                        android:id="@+id/closeIc"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginTop="24dp"
+                        android:background="@drawable/circlebackground"
+                        android:gravity="center"
+                        android:src="@drawable/gr_rutas_ppp_icx"
+                        android:textColor="@color/white"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginStart="10dp"
+                    android:orientation="horizontal"
+                    android:weightSum="5"
+                    android:gravity="center"
+                    android:layout_marginEnd="10dp">
+
+
+                    <ImageView
+                        android:id="@+id/imageView77"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:layout_marginStart="10dp"
+                        android:src="@drawable/config_ic_mundo"
+                        tools:ignore="MissingConstraints" />
+
+                    <TextView
+                        android:id="@+id/textView96"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:fontFamily="@font/plateiabold"
+                        android:layout_marginStart="15dp"
+                        android:gravity="left"
+                        android:text="@string/idioma_popup_tlt"
+                        android:textColor="@color/white"
+                        app:autoSizeTextType="uniform"
+                        app:layout_constraintBottom_toBottomOf="parent"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintTop_toTopOf="parent" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnMXi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView79"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="false"
+                            android:src="@drawable/config_pop_ic_flagmexico" />
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cfg_pop_2_txt_esp"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:fontFamily="@font/plateiabold"
+                            android:gravity="center"
+                            android:text="@string/idioma_popup_op2"
+                            android:textColor="@color/white"
+                            app:autoSizeTextType="uniform" />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnFRi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:weightSum="5"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="3"
+                        android:gravity="center">
+
+                        <ImageView
+                            android:id="@+id/imageView80"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="false"
+                            android:src="@drawable/config_pop_ic_flagfrancia" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:orientation="horizontal"
+                        android:layout_weight="2"
+                        android:gravity="center">
+
+                        <TextView
+                            android:id="@+id/cfg_pop_3_txt_frances"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="@font/plateiabold"
+                            android:gravity="center"
+                            android:layout_margin="4dp"
+                            android:text="@string/idioma_popup_op3"
+                            android:textColor="@color/white"
+                            app:autoSizeTextType="uniform"/>
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/btnUKi"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="3dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:weightSum="5">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="3"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:id="@+id/imageView78"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:adjustViewBounds="true"
+                            android:cropToPadding="false"
+                            android:src="@drawable/config_pop_ic_flaguk" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/cfg_pop_1_txt_ingles"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_margin="4dp"
+                            android:fontFamily="@font/plateiabold"
+                            android:gravity="center"
+                            android:text="@string/idioma_popup_op1"
+                            android:textColor="@color/white"
+                            app:autoSizeTextType="uniform" />
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="autoizseeventos">
+        <item>15sp</item>
+        <item>25sp</item>
+        <item>35sp</item>
+        <item>45sp</item>
+        <item>55sp</item>
+        <item>65sp</item>
+        <item>70sp</item>
+    </array>
+
+
+    <array name="act_eventoMapaGeneral">
+        <item>13sp</item>
+        <item>16sp</item>
+        <item>19sp</item>
+        <item>21sp</item>
+        <item>24sp</item>
+        <item>27sp</item>
+        <item>30sp</item>
+    </array>
+
+    <array name="autosizeFAMEX">
+        <item>30sp</item>
+        <item>40sp</item>
+        <item>60sp</item>
+        <item>80sp</item>
+        <item>100sp</item>
+    </array>
+
+
+    <array name="autosizePREFAMEX">
+        <item>44sp</item>
+        <item>48sp</item>
+        <item>52sp</item>
+        <item>56sp</item>
+        <item>60sp</item>
+    </array>
+
+
+    <array name="Titulos">
+        <item>20sp</item>
+        <item>40sp</item>
+        <item>60sp</item>
+        <item>80sp</item>
+        <item>100sp</item>
+    </array>
+
+    <array name="Subtitulos">
+        <item>15sp</item>
+        <item>20sp</item>
+        <item>25sp</item>
+        <item>30sp</item>
+        <item>35sp</item>
+    </array>
+
+    <array name="Texto">
+        <item>12sp</item>
+        <item>14sp</item>
+        <item>16sp</item>
+        <item>18sp</item>
+        <item>20sp</item>
+        <item>22sp</item>
+        <item>24sp</item>
+    </array>
+</resources>

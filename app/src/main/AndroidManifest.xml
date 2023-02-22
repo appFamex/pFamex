@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.drawerfamex">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.RESTART_PACKAGES"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+
+
+    <application
+        android:requestLegacyExternalStorage="true"
+        android:name=".pantallas.iniciarSesion.appClass"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.DrawerFamex">
+        <activity
+            android:name="com.example.drawerfamex.pantallas.configuracion.termCond.pTermCond"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.drawerfamex.pantallas.configuracion.reportarProblema.pReportarProblema"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.drawerfamex.pantallas.configuracion.contacto.pContacto"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.configuracion.sobreAplicacion.pSobreAplicacion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.configuracion.principal.pConfiguracion"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.perfil.pPerfil"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.prefamex.pPrefamex"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.prefamex.hoteles.pHoteles"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.prefamex.rutas.pRutas"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.prefamex.pFAQs"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.drawerfamex.pantallas.evento.expoEst.pExpoEstatica"
+            android:exported="false"
+            android:screenOrientation="portrait"  />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.evento.pabellones.Pabellones"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.evento.chalets.pChalets"
+            android:exported="false"
+            android:screenOrientation="portrait"  />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.evento.conferencias.pConferencias"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.bienvenida.pVideoBienv"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.MapaLayout"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.drawerfamex.pantallas.inicio.pInicio"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.iniciarSesion.pRegistrar"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.Mapa"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.Accesos"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.drawerfamex.Sanitizacion"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="com.example.drawerfamex.pantallas.muma.pMUMA"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.boletos.pBoletos"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.espectaculoAereo.pEspectaculo"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.itinerario.pItinerario"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.evento.pEvento"
+            android:exported="false"
+            android:screenOrientation="portrait"  />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.famex.pFAMEX"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.restaurantes.pRestaurantes"
+            android:exported="false"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.francia.pFrancia2023"
+            android:exported="false"
+            android:screenOrientation="portrait"  />
+
+        <activity
+            android:name="com.example.drawerfamex.pantallas.iniciarSesion.MainActivity"
+            android:exported="true"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/filepaths" />
+        </provider>
+    </application>
+
+</manifest>

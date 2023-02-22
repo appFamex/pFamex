@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "920542943339",
+    "project_id": "agendaapp-76b60",
+    "storage_bucket": "agendaapp-76b60.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920542943339:android:ece8c00d5c2ee7ea2b392e",
+        "android_client_info": {
+          "package_name": "com.example.drawerfamex"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920542943339-nqfeusc3992d4l01v9l23mhbnfpmq2ju.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.drawerfamex",
+            "certificate_hash": "dd97821651d7d791d106a904f9fdf09b46fd7e43"
+          }
+        },
+        {
+          "client_id": "920542943339-ckck8aoue26airachobl3ufpd56qjrhv.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDXNXq1XHjtb-nWKPy7fdSKlIPqQ472g6g"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920542943339-ckck8aoue26airachobl3ufpd56qjrhv.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

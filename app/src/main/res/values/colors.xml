@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name = "boton">#0575b9</color>
+    <color name ="transparencia">#00000000</color>
+    <color name ="transparenciaprueba">#0F000000</color>
+    <color name="blackgrey">#802F333F</color>
+    <color name="azulito">#0080C9</color>
+    <color name="amarilo">#F99623</color>
+    <color name="azulitofuerte">#022c5f</color>
+    <color name="fran1">#8D002654</color>
+    <color name="fran2">#4DA00013</color>
+    <color name="azulitofuertetransparente">#4D022C5F</color>
+    <color name="band1">#4D006847</color>
+    <color name="band2">#5DFFFFFF</color>
+    <color name="band3">#4dCe1125</color>
+    <color name="principañ">#E5E5E5</color>
+    <color name="muma1">#022B5F</color>
+    <color name="muma2">#0F2038</color>
+    <color name="dotSelected">#E7E8E8</color>
+    <color name="dotUnselected">#8A8C8E</color>
+    <color name = "click">#750575B9</color>
+</resources>

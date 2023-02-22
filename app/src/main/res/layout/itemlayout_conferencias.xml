@@ -1,0 +1,138 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:animateLayoutChanges="true"
+    app:cardElevation="0dp"
+    app:cardBackgroundColor="@color/transparencia"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:animateLayoutChanges="true"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/bannerconferecinas2">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/txthorario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="13:00 - 12:00"
+                android:textColor="@color/white"
+                android:textSize="8dp" />
+
+            <View
+                android:id="@+id/lineasep"
+                android:layout_width="1dp"
+                android:layout_height="70dp"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="2dp"
+                android:layout_marginTop="2dp"
+                android:layout_marginEnd="2dp"
+                android:layout_marginBottom="2dp"
+                android:layout_toEndOf="@+id/txthorario"
+                android:layout_toRightOf="@+id/txthorario"
+                android:background="@color/white"
+                android:textAlignment="center" />
+
+            <LinearLayout
+                android:id="@+id/lltcardconfe"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginTop="21dp"
+                android:layout_marginRight="8dp"
+                android:layout_toStartOf="@+id/igvFavConferencia"
+                android:layout_toEndOf="@+id/lineasep"
+                android:layout_toRightOf="@+id/lineasep"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtnombreconferencia"
+                        android:layout_width="120dp"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:gravity="left"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:id="@+id/txtexpositor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="2dp"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="12sp" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/txtdescripcion"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="2dp"
+                    android:text="TextView"
+                    android:textColor="@color/white"
+                    android:textSize="10sp" />
+
+
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/igvFavConferencia"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                app:srcCompat="@drawable/assent13fondo"/>
+
+            <ImageView
+                android:id="@+id/igvFavConferenciacolor"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:visibility="invisible"
+                app:srcCompat="@drawable/iconoseleccionado" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>

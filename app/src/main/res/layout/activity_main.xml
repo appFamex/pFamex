@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/drawer_Layout"
+    android:background="@drawable/backgroundhome"
+    tools:context=".pantallas.iniciarSesion.MainActivity">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constrainLogIn"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="30dp"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <!--Here Goes my Shit-->
+
+            <ImageView
+                android:id="@+id/imgvlogo"
+                android:layout_width="300dp"
+                android:layout_height="200dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/logofamexblanco2023" />
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:fontFamily="@font/plateiabold"
+                android:text="@string/LOGIN_TXT_Inicio"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="20sp" />
+
+            <EditText
+                android:id="@+id/log_1_lbl_iNombreUsuario"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="20dp"
+                android:autofillHints=""
+                android:backgroundTint="@color/white"
+                android:drawableStart="@drawable/ic_action_person"
+                android:fontFamily="@font/helveticalight"
+                android:hint="@string/LOGIN_EDIT_HINT"
+                android:inputType="textPersonName"
+                android:lines="1"
+                android:minHeight="48dp"
+                android:textColor="@color/white"
+                android:textColorHint="@color/white"
+                tools:ignore="SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
+
+
+            <Button
+                android:id="@+id/log_3_btn_log"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="25dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:backgroundTint="@color/boton"
+                android:fontFamily="@font/helvetica"
+                android:text="@string/LOGIN_BTN_Iniciar"
+                android:textColor="@color/white" />
+
+            <Spinner
+                android:id="@+id/mySpinner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:backgroundTint="@color/white"
+                android:gravity="center"
+                android:popupBackground="@color/azulito" />
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

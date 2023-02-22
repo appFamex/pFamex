@@ -1,0 +1,520 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/drawer_Layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pantallas.configuracion.contacto.pContacto">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <include
+            android:id="@+id/include3"
+            layout="@layout/main_toolbar" />
+
+        <ScrollView
+
+            android:id="@+id/scrollView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/config_fondo">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/imageView71"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_6_txt_dir_5" />
+
+                <ImageView
+                    android:id="@+id/imageView73"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_7_txt_dir_6" />
+
+                <ImageView
+                    android:id="@+id/imageView75"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_8_txt_dir_7" />
+
+                <ImageView
+                    android:id="@+id/imageView67"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView70" />
+
+                <ImageView
+                    android:id="@+id/imageView68"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView71" />
+
+                <ImageView
+                    android:id="@+id/imageView74"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView73" />
+
+                <ImageView
+                    android:id="@+id/imageView76"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView75" />
+
+                <ImageView
+                    android:id="@+id/imageView66"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView69" />
+
+                <ImageView
+                    android:id="@+id/imageView65"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView72" />
+
+
+                <ImageView
+                    android:id="@+id/imageView63"
+                    android:layout_width="59dp"
+                    android:layout_height="60dp"
+                    android:layout_marginStart="40dp"
+                    android:layout_marginTop="24dp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/config_ic_contacto" />
+
+                <TextView
+                    android:id="@+id/ctc_1_txt_titulo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="32dp"
+                    android:fontFamily="@font/plateiabold"
+                    android:text="@string/config_btn2_txt3"
+                    android:textColor="@color/white"
+                    android:textSize="20sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView63"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/ctc_2_txt_dir_1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op1"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_1_txt_titulo" />
+
+                <TextView
+                    android:id="@+id/ctc_3_txt_dir_2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op2"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView64" />
+
+                <TextView
+                    android:id="@+id/textView67"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m1"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView64"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_2_txt_dir_1" />
+
+                <TextView
+                    android:id="@+id/textView68"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t1"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView72"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_3_txt_dir_2" />
+
+                <TextView
+                    android:id="@+id/ctc_4_txt_dir_3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op3"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView65" />
+
+                <TextView
+                    android:id="@+id/textView70"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t2"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView69"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_4_txt_dir_3" />
+
+                <TextView
+                    android:id="@+id/textView71"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m1"
+                    android:textAlignment="textEnd"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView65"
+                    app:layout_constraintTop_toBottomOf="@+id/textView68" />
+
+                <TextView
+                    android:id="@+id/textView72"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m2"
+                    android:textAlignment="viewEnd"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView66"
+                    app:layout_constraintTop_toBottomOf="@+id/textView70" />
+
+                <TextView
+                    android:id="@+id/ctc_5_txt_dir_4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op4"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView66" />
+
+                <TextView
+                    android:id="@+id/textView74"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t3"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView70"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_5_txt_dir_4" />
+
+                <TextView
+                    android:id="@+id/textView75"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m3"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView67"
+                    app:layout_constraintTop_toBottomOf="@+id/textView74" />
+
+                <TextView
+                    android:id="@+id/ctc_6_txt_dir_5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op5"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView67" />
+
+                <TextView
+                    android:id="@+id/textView77"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t4"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView71"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_6_txt_dir_5" />
+
+                <TextView
+                    android:id="@+id/textView78"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m4"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toEndOf="@+id/imageView68"
+                    app:layout_constraintTop_toBottomOf="@+id/textView77" />
+
+                <ImageView
+                    android:id="@+id/imageView64"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_mail"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_2_txt_dir_1" />
+
+                <ImageView
+                    android:id="@+id/imageView69"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_4_txt_dir_3" />
+
+                <ImageView
+                    android:id="@+id/imageView72"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_3_txt_dir_2" />
+
+                <ImageView
+                    android:id="@+id/imageView70"
+                    android:layout_width="38dp"
+                    android:layout_height="24dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="16dp"
+                    android:src="@drawable/config_contacto_ic_phone"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_5_txt_dir_4" />
+
+                <TextView
+                    android:id="@+id/ctc_7_txt_dir_6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op6"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView68" />
+
+                <TextView
+                    android:id="@+id/textView80"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t51"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView73"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_7_txt_dir_6" />
+
+                <TextView
+                    android:id="@+id/textView81"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/config_contacto_t52"
+                    android:textAlignment="viewStart"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView73"
+                    app:layout_constraintTop_toBottomOf="@+id/textView80" />
+
+                <TextView
+                    android:id="@+id/textView82"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m6"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView74"
+                    app:layout_constraintTop_toBottomOf="@+id/textView81" />
+
+                <TextView
+                    android:id="@+id/textView83"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_t6"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView75"
+                    app:layout_constraintTop_toBottomOf="@+id/ctc_8_txt_dir_7" />
+
+                <TextView
+                    android:id="@+id/ctc_8_txt_dir_7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginTop="24dp"
+                    android:text="@string/config_contacto_Op7"
+                    android:textColor="@color/white"
+                    android:textSize="15sp"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/imageView74" />
+
+                <TextView
+                    android:id="@+id/textView85"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m71"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView76"
+                    app:layout_constraintTop_toBottomOf="@+id/textView83" />
+
+                <TextView
+                    android:id="@+id/textView86"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_marginTop="16dp"
+                    android:text="@string/config_contacto_m72"
+                    android:textColor="@color/white"
+                    app:layout_constraintStart_toEndOf="@+id/imageView76"
+                    app:layout_constraintTop_toBottomOf="@+id/textView85" />
+
+                <TextView
+                    android:id="@+id/textView87"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginTop="250dp"
+                    android:text="@string/config_contacto_txt1"
+                    android:textColor="@color/white"
+                    android:textSize="24sp"
+                    app:layout_constraintBottom_toTopOf="@+id/linearLayout16"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView86" />
+
+                <LinearLayout
+                    android:id="@+id/linearLayout16"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="20dp"
+                    android:layout_marginBottom="32dp"
+                    android:orientation="horizontal"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toBottomOf="@+id/textView87">
+
+                    <ImageView
+                        android:id="@+id/btnFB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/config_contacto_ic_fb" />
+
+                    <ImageView
+                        android:id="@+id/btnIG"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="20dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/config_contacto_ic_ig" />
+
+                    <ImageView
+                        android:id="@+id/btnWeb"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="10dp"
+                        android:layout_weight="1"
+                        android:src="@drawable/config_contacto_ic_net" />
+
+                    <ImageView
+                        android:id="@+id/btnYT"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:src="@drawable/config_contacto_ic_yt" />
+                </LinearLayout>
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+        </ScrollView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:background="@android:color/white">
+
+        <include layout="@layout/main_nav_drawer" />
+
+    </RelativeLayout>
+
+</androidx.drawerlayout.widget.DrawerLayout>

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".popups.base.fragPopupVentana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/container"
+    android:background="@color/transparencia">
+
+    <LinearLayout
+        android:id="@+id/lltfondopopexpoest"
+        android:layout_width="300dp"
+        android:layout_height="600dp"
+        android:layout_gravity="center"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/gr_rutas_ppp_fondo"
+        android:backgroundTint="@color/transparencia"
+        android:backgroundTintMode="screen"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-48dp">
+
+        <TextView
+            android:id="@+id/textclose2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center_horizontal"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/igvventana"
+            android:layout_width="match_parent"
+            android:layout_height="155dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:src="@drawable/avion2"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtvnombreventana"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/gr_rutas_ppp_fondoh"
+            android:fontFamily="@font/helveticabold"
+            android:gravity="center"
+            android:text="10:00 - 10:30"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/igvavionpopoexpoestatica1"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="22dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginBottom="10dp"
+            android:gravity="center">
+
+            <TextView
+                android:id="@+id/txtdescripcionventana"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center|top"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="30dp"
+                android:fontFamily="@font/helvetica"
+                android:justificationMode="inter_word"
+                android:text="Lorem ipsum cing elit. Mauris vitae accumsan sapien. Sed et ultrices odio, id tristique turpis. Donec mattis 	hendrerit lectus nec pellentesque."
+                android:textColor="@color/white"
+                android:textSize="20dp" />
+
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/textclose"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center"
+            android:src="@drawable/gr_rutas_ppp_icx"
+            android:textColor="@color/white"
+            />
+
+    </LinearLayout>
+</FrameLayout>

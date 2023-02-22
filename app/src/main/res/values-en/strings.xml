@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FAMEX</string>
+    <string name="Text1">France will be the guest country\nof honor during the next\nedition of the Aerospace fair\nMéxico 2023 (FAMEX 2023) that\nwill be held on April 29\n2023, at the Military Air Base\nNumber 1 located in Santa Lucia,\nState of Mexico, as reported\nby General Sandoval Dueñas,\npresident of the committee of the Mexico\nAerospace Fair presented the letter of acceptance of France as Guest Country of Honor of FAMEX 2023 to Mr. Jean-Yves Le Drian\nMinister of Foreign Affairs of the French Republic.\n\nFrance is the fourth trading partner\and sixth source of investment of \nMexico is among the countries that\nmake up the European Union since\nsince the beginning of the century it has\ninvested more than $5.2 billion\ndollars in various manufacturing factories\nin San Luis Potosí,\nPuebla, Queretaro, Tamaulipas and\nthe City of Mexico, in\npriority sectors, such as aeronautics,\ndetailed the head of FAMEX.\n\nTo date, France is the\nmain employer in the sector\n\t\t\t\t\t\t\t\ in Mexico and\n\t\t\t\t\t\t\t\tgenerate 1 of 4 jobs in\n\t\t\t\t\t\t\t\tthe aerospace industry.\n \ t\t\t\t\t\t\t\tFAMEX 2023 would be the fifth\n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\t\t\t fair \t\t\t\t\tspace, which is\n\t\t\t\t\t\t\t\tturned into a pillar and\n\t\t\t\t\t\ t\t\ta platform for\n\t\t\t\t\t\t\t\tbusinesses in the field, with\n\t\t\t\t\t\t\t\t\tsupport from the triple helix,\n\t\t\t\t\t\t\t\tgovernment,industry, and\n\t\t\t\t\t\t\t\tachemia,added \n\t\ t\t\t\t\t\t\tSandoval. In past \n\t\t\t\t\t\t\t\t editions, the countries\n\t\t\t\t\t\t\t\invited to FAMEX have been\n\t\ t\t\t\t\t\t\tCanada and the\n\t\t\t\t\t\t\t\tUnited States of America.</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="Log_in">Log In</string>
+    <string name="Registrarme">Sign in</string>
+    <string name="Registrarse">Sign in </string>
+    <string name="Texto1Francia">Main Employer of the aeronautical sector in Mexico</string>
+    <string name="Texto2Francia">Voejmner orivmeirmvie</string>
+    <string name="Texto3Francia">1 of 4 jobs in the aerospace industry</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="Personalizatuicono">Customize your icon</string>
+    <string name="TextoFicha">Mexican Aerospace Federation to promote and strengthen the aerospace industry.\nTel:+52 1 5544525697\nEmail:abcdefg@gmail.com\nAddress: Calle XXX #XX Col.X, XXXXX, XXXXX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="layout_principal">LAYOUT</string>
+    <string name="powered_by_principal">Powered by</string>
+    <string name="itinerario_principal">ITINERARIO</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+
+    <!-- Pantalla Login -->
+    <string name="LOGIN_TXT_Inicio">Enter your name</string>
+    <string name="LOGIN_BTN_Iniciar">START</string>
+    <string name="LOGIN_EDIT_HINT">Username</string>
+    <string name="LOGIN_EDIT_TOAST">Enter your username</string>
+    <string name="LOGIN_LOG_TOAST">"Searching for Update"</string>
+    <string name="LOGIN_ACT_TOAST">"Updating..."</string>
+
+    <!-- Pantalla Registrarse -->
+    <string name="REG_BTN_Registro">SIGN IN</string>
+    <string name="REG_BTN_Volver">BACK</string>
+    <string name="REG_TXT_Correo">E-mail</string>
+    <string name="REG_TXT_Contraseña">Password</string>
+    <string name="REG_TXT_RepContraseña">Repet Password</string>
+
+    <!-- Main Screen -->
+    <string name="PRIN_BTN_Layout">EVENT</string>
+    <string name="PRIN_BTN_Itinerario">MY ITINERARY</string>
+
+    <!-- Itinerary screen -->
+    <string name="IT_TXT_1">My Day 26</string>
+    <string name="IT_TXT_2">My Day 27</string>
+    <string name="IT_TXT_3">My Day 28</string>
+    <string name="IT_TOAST_Itinerario">Removed from Itinerary</string>
+
+    <!-- Event Screen -->
+    <string name="EVE_BTN_Mapageneral">MAP\nGENERAL</string>
+    <string name="EVE_BNN_Eventos">E\nV\nE\nN\nT</string>
+    <string name="EVE_BTN_Conferencias">CONFERENCES</string>
+    <string name="EVE_BNN_Pabellones">PAVILIONS</string>
+    <string name="EVE_BTN_Chalets">CHALETS</string>
+    <string name="EVE_BNN_ExpoEsta">STATIC\nEXHIBITION</string>
+
+    <!-- Pantalla Conferencias -->
+    <string name="CON_TAB_Dia1">APRIL 26\nWED</string>
+    <string name="CON_TAB_Dia2">APRIL 27\nTHU</string>
+    <string name="CON_TAB_Dia3">APRIL 28\nFRI</string>
+    <string name="CON_TXT_Auditorio1">Alfa Auditorium</string>
+    <string name="CON_TXT_Auditorio2">Bravo Auditorium</string>
+    <string name="CON_TXT_Auditorio3">Charlie Auditorium</string>
+    <string name="CON_TXT_Auditorio4">Delta Auditorium</string>
+    <string name="CON_TXT_Auditorio5">Eco Auditorium</string>
+    <string name="CON_TXT_Auditorio6">Foxtrot Auditorium</string>
+    <string name="CON_TXT_Auditorio7">Auditorium</string>
+    <string name="CON_TXT_PabellonA">Pavilion A</string>
+    <string name="CON_TXT_PabellonB">Pavilion B</string>
+    <string name="CON_TXT_PabellonC">Pavilion C</string>
+    <string name="CON_TXT_PabellonD">Pavilion D</string>
+    <string name="CON_TXT_PabellonE">Pavilion E</string>
+    <string name="CON_TXT_PabellonF">Pavilion F</string>
+    <string name="CON_TXT_Bam1">B.A.M 1</string>
+    <string name="CON_TOAST_Itinerario">Added to My Itinerary</string>
+
+    <!-- Pantalla pChalets -->
+    <string name="CHA_TXT_Bloque">"Block "</string>
+    <string name="CHA_TXT_Bloque1">Block 1</string>
+    <string name="CHA_TXT_Bloque2">Block 2</string>
+    <!--<string name="CHA_TXT_Bloque3">Block 3</string>-->
+    <string name="CHA_TXT_Chalets">Chalets</string>
+    <string name="CHA_TOAST_Itinerario">Added to My Itinerary</string>
+
+    <!-- Pantalla Expo estatica -->
+    <string name="EXPE_TLT_Expoestatica">S\nT\nA\nT\nI\nC\n \nE\nX\nH\nI\nB\nI\nT\nI\nO\nN</string>
+    <string name="EXPE_LEYENDA">To visit the aircraft at the fair, please consult their location on the general map</string>
+    <string name="EXPE_TOAST_Itinerario">Added to My Itinerary</string>
+
+    <!-- Pantalla FAMEX -->
+    <string name="FMX_TXT_SCROLL_T1">WHAT IS IT?</string>
+    <string name="FMX_TXT_SCROLL_T2">HISTORY</string>
+    <string name="FMX_TXT_SCROLL_T3">OBJECTIVES</string>
+    <string name="FMX_TXT_SUBT">Why Mexico?</string>
+    <string name="FMX_TXT_LEYENDA">\nEVOLUTION OF THE AEROSPACE FAIR \nIN MEXICO</string>
+    <string name="FMX_TXT_TABLA">"I\nM\nP\nR\nO\nV\nI\nN\nG"</string>
+    <string name="FMX_TXT_EDICIONES">PAST\nEDITIONS</string>
+    <string name="FMX_TXT_SCROLL_TXT_1">The Mexican Aerospace Fair is an international event organized by the Mexican Air Force through the SEDENA, which showcases cutting-edge technology and products from the aerospace and space industries.</string>
+    <string name="FMX_TXT_SCROLL_TXT_2">It started in 2015, to celebrate 100 years of Military Aviation in Mexico, becoming a platform to drive the economic development of the national aerospace sector.</string>
+    <string name="FMX_TXT_SCROLL_TXT_3">Bringing together the leaders of the aerospace and space industries to facilitate trade exchange and drive the growth of the national and international aerospace industry through foreign investment and job creation.</string>    <string name="FMX_TXT_COLM_1">Exhibitors</string>
+    <string name="FMX_TXT_COLM_2">Aircraft</string>
+    <string name="FMX_TXT_COLM_3">B2B Meetings</string>
+    <string name="FMX_TXT_COLM_4">Visitors</string>
+    <string name="FMX_TXT_COLM_5">Countries</string>
+
+    <!-- Pantalla Francia -->
+    <string name="FR_TXT_titulo">F\nR\nA\nN\nC\nE</string>
+    <string name="FR_TXT_BTN_1">CONFERENCES ></string>
+    <string name="FR_TXT_BTN_2">STATIC EXHIBITION</string>
+    <string name="FR_TXT_BTN_3">CHALETS ></string>
+    <string name="FR_TXT_1">Mexico-France relationship</string>
+    <string name="FR_TXT_2">French aeronautical industry.</string>
+    <string name="FR_TXT_3">French aerospace industry.</string>
+    <string name="FR_TXT_4">French Academic Excellence.</string>
+    <string name="FR_POP_TXT_1">"Mexico and France have maintained diplomatic relations since November 1826 and, since then, have generated economic ties that have resulted in a close, dynamic and complementary economic and trade relationship. France is Mexico's fourth largest trading partner and sixth largest source of investment among the countries that make up the European Union. It is worth noting the economic and trade relationship between Mexico and France.
+The economic and commercial relationship between Mexico and France and, in particular, the impact of the investment made by French companies in Mexico to strengthen productive linkages between our countries and their cooperation, social responsibility and sustainability projects in our country."</string>
+    <string name="FR_POP_TXT_2">"France is the second largest exporter in the world in the aerospace industry, which is characterized by significant capital investments and high technological content.\nIt is a global leader in areas such as engines, integrated systems, avionics, drones, and business jets.\nAmong the aerospace companies in France, notable ones include: Airbus, Safran, Dassault Aviation, Aerocampus Aquitaine, Aeroplast, Safety Line, Thales, WashTech, and others."</string>
+    <string name="FR_POP_TXT_3">"In the case of France, research efforts in the aerospace industry represent about 11% of the national business research and development internal spending, being the second highest contributing sector."</string>
+    <string name="FR_POP_TXT_4">"The excellence of French higher education is widely recognized throughout the world. France invests massively every year in higher education and research; education ranks first in state budget expenditure, i.e. more than 20%. French industrial, technological and scientific successes (space, transport, medicine, etc.),
+the number of Nobel prizes or Field medals, show that France is one of the most dynamic poles of innovation and research."</string>
+
+    <!--Espectaculo Aereo-->
+    <!-- Air Show Screen -->
+    <string name="esp_popup_tlt">WALLPAPERS</string>
+    <string name="esp_popup_btn">DOWNLOAD</string>
+
+    <!-- MUMA -->
+    <string name="MUMA_TLT_1">FAMEX AT\n MUMA</string>
+    <string name="MUMA_TXT_1">"The Mexican Air Force in coordination with the Mexico Aerospace Fair (FAMEX) have created a space dedicated to the country's most emblematic planes, allowing the general public to observe the beauty and historical value of each element at the Military Aviation Museum (MUMA)."</string>
+    <string name="MUMA_TXT_2">"The Mexican Air Force in coordination with the Mexico Aerospace Fair (FAMEX) have created a space dedicated to the country's most emblematic planes, allowing the general public to observe the beauty and historical value of each element at the Military Aviation Museum (MUMA)."</string>
+    <string name="MUMA_TLT_3">FAMEX ROOM</string>
+    <string name="MUMA_TXT_3">"FAMEX was created to boost the aviation market in the country, which not only attracted foreign investments, but also brought the general public closer to the history of aviation in Mexico. That's why we invite you to learn more about us in our room at MUMA, located at Military Air Base No. 1 in Santa Lucia."</string>
+    <string name="MUMA_TLT_4">VIRTUAL TOUR</string>
+    <string name="MUMA_TXT_4">ENJOY OUR 360° TOUR\n OF THE FAMEX ROOM AT MUMA!</string>
+
+    <!-- Pantalla PRE-FAMEX -->
+    <string name="GR_TLT">P\nR\nE\nF\nA\nM\nE\nX</string>
+    <string name="GR_BTN_Hoteles">HOTELS</string>
+    <string name="GR_BTN_comoLlegar">How\nTo Get There?</string>
+    <string name="GR_BTN_rutas">routes</string>
+    <string name="GR_BTN_PF">FREQUENTLY\nASKED QUESTIONS</string>
+
+    <!-- Pantalla HOTELES -->
+    <string name="GR_hoteles_btnLink">Réserver</string>
+    <string name="GR_hoteles_txt">Tarif\nSpécial</string>
+
+    <!-- Écran Routes -->
+    <string name="GR_rutas_tlt">ITINÉRAIRES</string>
+    <string name="GR_rutas_txtPOP">C\nI\nR\nC\nU\nL\nA\nT\nI\nO\nN</string>
+
+        <!-- Texto POP UP 1 -->
+        <string name="GR_rutas_txtPOP1">H\nO\nT\nE\nL\nS</string>
+        <string name="GR_rutas_ppp1txt1">HOTEL</string>
+        <string name="GR_rutas_ppp1txt2">Fair\nGrounds</string>
+        <string name="GR_rutas_popup_1_txt_1">H\nO\nT\nE\nL\nS</string>
+        <string name="GR_rutas_popup_1_txt_2">H\nO\nT\nE\nL\nS</string>
+        <string name="GR_rutas_popup_1_txt_3">H\nO\nT\nE\nL\nS</string>
+
+        <!-- Texto POP UP 2 -->
+    <string name="GR_rutas_txtPOP2">O\nU\nT\nS\nI\nD\nE</string>
+    <string name="GR_rutas_ppp2txt1">MILITARY\nBASE</string>
+    <string name="GR_rutas_ppp2txt2">Fair\nGROUNDS</string>
+    <string name="GR_rutas_popup_2_txt_1">H\nO\nT\nE\nL\nS</string>
+    <string name="GR_rutas_popup_2_txt_2">H\nO\nT\nE\nL\nS</string>
+    <string name="GR_rutas_popup_2_txt_3">H\nO\nT\nE\nL\nS</string>
+
+        <!-- Texto POP UP 3 -->
+    <string name="GR_rutas_txtPOP3">F\nI\nN\nA\nL</string>
+    <string name="GR_rutas_ppp3txt1">BLOCK\n 1</string>
+    <string name="GR_rutas_ppp3txt2">BLOCK\n 2</string>
+    <string name="GR_rutas_ppp3txt3">BLOCK\n 3</string>
+    <string name="GR_rutas_popup_3_txt_1">H\nO\nT\nE\nL\nS</string>
+    <string name="GR_rutas_popup_3_txt_2">H\nO\nT\nE\nL\nS</string>
+    <string name="GR_rutas_popup_3_txt_3">H\nO\nT\nE\nL\nS</string>
+
+    <!-- Pantalla pFAQs -->
+    <string name="GR_faqs_btnGenerales">GENERAL</string>
+    <string name="GR_faqs_btnEvento">EVENT</string>
+    <string name="GR_faqs_btnRutas">ROUTES</string>
+
+    <!--pFAQs GENERALES-->
+    <string name="GR_faqs_q1">"What are the dates and hours of the fair?"</string>
+    <string name="GR_faqs_ans1">"April 26th to 29th from 11:00 a.m. to 17:00 p.m."</string>
+    <string name="GR_faqs_q2">"Who can attend?"</string>
+    <string name="GR_faqs_ans2">"General public over 18 years of age with valid ID."</string>
+    <string name="GR_faqs_q3">"Can minors enter the fair?"</string>
+    <string name="GR_faqs_ans3">"Access only on April 29th as long as they are accompanied by an adult."</string>
+    <string name="GR_faqs_q4">"Can I bring food and beverages?"</string>
+    <string name="GR_faqs_ans4">"No, we have a food area."</string>
+    <string name="GR_faqs_q5">"Who organizes the Fair?"</string>
+    <string name="GR_faqs_ans5">"The Secretary of National Defense through the Mexican Air Force."</string>
+    <string name="GR_faqs_q6">"How often is the fair organized?"</string>
+    <string name="GR_faqs_ans6">"The fair is held every 2 years."</string>
+    <string name="GR_faqs_q7">"Can I take pictures?"</string>
+    <string name="GR_faqs_ans7">"Yes, just don't forget to tag us, remember to follow us on our social networks."</string>
+    <string name="GR_faqs_q8">"Can I bring drones?"</string>
+    <string name="GR_faqs_ans8">"No."</string>
+    <string name="GR_faqs_q9">"What can't I bring?"</string>
+    <string name="GR_faqs_ans9">"Alcoholic beverages and weapons."</string>
+    <string name="GR_faqs_q10">"Is identification required for access to the Fair?"</string>
+    <string name="GR_faqs_ans10">"Yes, just don't forget to acredit"</string>
+    <string name="GR_faqs_q11">"Where can I get tickets?"</string>
+    <string name="GR_faqs_ans11">"Through the mobile application and the website."</string>
+    <string name="GR_faqs_q12">"What kind of aircraft will there be?"</string>
+    <string name="GR_faqs_ans12">"You can check in the static exhibition section of the FAMEX application."</string>
+    <string name="GR_faqs_q13">"Which conferences can I attend?"</string>
+    <string name="GR_faqs_ans13">"You can attend all the conferences, you just have to register in the App and Website."</string>
+    <string name="GR_faqs_q14">"Who is the guest country?"</string>
+    <string name="GR_faqs_ans14">"France."</string>
+    <string name="GR_faqs_q15">"What events will be held during the fair?"</string>
+    <string name="GR_faqs_ans15">"Conferences, static exhibitions and air shows, don't miss it!"</string>
+    <string name="GR_faqs_q16">"How to get to the Fair?"</string>
+    <string name="GR_faqs_ans16">"In the Prefamex section you can see which transportation services we offer and their location."</string>
+
+    <!--Pantalla Configuracion-->
+    <string name="config_tlt">Configuration</string>
+    <string name="config_btn1_txt1">LANGUAGE</string>
+    <string name="config_btn1_txt2">NOTIFICATIONS</string>
+    <string name="config_btn2_txt1">FREQUENTLY\nASKED QUESTIONS</string>
+    <string name="config_btn2_txt2">Report a\nproblem</string>
+    <string name="config_btn2_txt3">Contact</string>
+    <string name="config_btn3_txt1">About the\nApplication</string>
+    <string name="config_btn3_txt2">Terms and\nConditions</string>
+
+    <!--Pantalla Report Problem-->
+    <string name="config_rp_txt1">Add screenshots (optional)</string>
+    <string name="config_rp_txt2">Submit</string>
+
+    <!--Pantalla Contacto-->
+    <string name="config_contacto_txt1">FOLLOW US</string>
+
+    <!--SubTitles-->
+    <string name="config_contacto_Op1">BRIGADIER GENERAL JAVIER SANDOVAL DUEÑAS COMMITTEE PRESIDENT</string>
+    <string name="config_contacto_Op2">BRIGADIER GENERAL GABRIEL GARCIA JIMENEZ EXECUTIVE DIRECTOR</string>
+    <string name="config_contacto_Op3">COMMERCIAL</string>
+    <string name="config_contacto_Op4">PUBLIC RELATIONS</string>
+    <string name="config_contacto_Op5">LOGISTICS</string>
+    <string name="config_contacto_Op6">OPERATIONS</string>
+    <string name="config_contacto_Op7">ADVERTISING</string>
+
+        <!--Mails-->
+        <string name="config_contacto_m1">presidente@f-airmexico.com.mx</string>
+        <string name="config_contacto_m2">dir.ejecutivo@f-airmexico.com.mx</string>
+        <string name="config_contacto_m3">comercial@f-airmexico.com.mx</string>
+        <string name="config_contacto_m4">rels.publicas@f-airmexico.com.mx</string>
+        <string name="config_contacto_m5">logistica@f-airmexico.com.mx</string>
+        <string name="config_contacto_m6">operaciones@f-airmexico.com.mx</string>
+        <string name="config_contacto_m71">publicidad@f-airmexico.com.mx</string>
+        <string name="config_contacto_m72">prensa@f-airmexico.com.mx</string>
+
+        <!--Tels-->
+        <string name="config_contacto_t1">Tel. +52 (55) 71 60 31 63</string>
+        <string name="config_contacto_t2">Tel. +52 (55) 70 98 52 99</string>
+        <string name="config_contacto_t3">Tel. +52 (55) 70 98 43 23</string>
+        <string name="config_contacto_t4">Tel. +52 (55) 31 81 03 32</string>
+        <string name="config_contacto_t51">Tel. +52 (55) 71 60 31 63</string>
+        <string name="config_contacto_t52">Tel. +52 (55) 71 60 31 65</string>
+        <string name="config_contacto_t6">Tel. +52 (55) 70 98 11 39</string>
+
+    <!--Terminos y condiciones-->
+    <string name="termCond_tlt">Terms and Conditions</string>
+    <string name="termCond"><b>Terms and Conditions</b>\n\n
+"Famex-2023" is an international event in the business field; therefore, admission will be granted only to individuals over 18 years of age.
+After purchasing tickets, there will be no refunds available.
+In case of requiring an invoice, it must be generated at the time of payment.
+The electronic tickets through this website have an additional cost of $56.00 MXN pesos for the service fee paid with a debit or credit card.
+In case of any payment clarifications or discrepancies, please contact 5557634265 / support@a-id.cloud.
+		Please be reminded that the purchase of "Famex-2023" accreditation is personal, as well as your access ticket, which will be delivered to you along with your badge, which will be for one-time use and non-transferable.\n\n<b>PRIVACY NOTICE\n\nCONFIDENTIALITY NOTICE</b>\n\nThis privacy notice describes how the Feria Aeroespacial Mexico 2023 (Famex-2023) committee, located at Av. Santos Dumont S/N, Col. Aviación civil, Venustiano Carranza CP.15740, in Mexico City, will use, share, and protect the personal information that is collected when you visit our website and event applications. Additionally, we inform you that this notice may be supplemented by adding privacy terms or additional notices.\n\n<b>INFORMATION THAT FAMEX 2023 COLLECTS</b>\n\n
+The personal information that the committee collects directly from you includes contact data such as name, age, company you work for, address, position or job title, telephone numbers, email addresses, and website.
+		<b>INFORMATION THAT THE REGISTRATION COMPANY COLLECTS AND PROTECTS</b>\n
+\nInternet Protocol ("IP") address used to connect your computer (note: devices) to the Internet
+\nPayment information or debit, credit, or other payment methods
+		\n\n<b>USE THAT FAMEX 2021 WILL GIVE TO YOUR INFORMATION</b>\n
+\nThe collected information will be used for statistical, commercial, and security purposes established by the committee, which may include, among others, the following activities:
+\nManage your entry to the event, conferences, and seminars.
+\nRespond to your requests, questions, comments, or doubts.
+\nProvide services and offer additional content according to your interests and needs.
+\nStrengthen, evaluate, and improve the service, advertising, and programs of the event.
+\nAnalyze trends in the aeronautical, defense, and security sectors for statistical purposes.
+\nNotify changes or updates of the products and services of "FAMEX-2023."
+\nProvide the survey about the event.
+\nAccess information about products, services, events, exhibitions, and conferences of "FAMEX-2023"; the exhibitors, sponsors, and other related organizations.
+\nGenerate a database by scanning the accreditation badge when visiting stands or chalets, to share your contact information with exhibitors, sponsors, government agencies, and third parties associated with the committee.
+\nRespond or comply with any law, regulation, subpoena, court order, or other legal obligation.
+\nEnforce or protect your rights and properties.
+\nDetect, investigate, and help prevent security threats, fraud, or other malicious activity.
+\n*The Feria Aeroespacial Mexico 2023 committee reserves the right to use for advertising purposes the photographs, videos, and other material captured during any activity during the event.
+\nAny information that you publicly disclose may be collected and used by others (note j: third parties), without any control or protection by the committee.
+Transfer of your information abroad\n
+Your information may be transferred to companies in other countries. By using the service, you consent to the transfer of information to countries other than your country of residence, which may have different laws regarding the protection of personal data.
+		\n\n<b>CHANGES TO OUR PRIVACY POLICY</b>\n
+\nThis privacy notice may undergo modifications, changes, or updates resulting from new legal requirements; the committee\'s own needs, or other causes. Any changes to the present notice will be announced on this page. (note j: app)
+		\n\n<b>CONTACT</b>\n
+\nIf you have any questions, comments, or requests regarding this privacy policy or our processing of your information, please contact:
+\nCommercial Management of the "FAMEX" Committee
+\nAv. Santos Dumont S/N, Colonia Aviación Civil, Venustiano Carranza, C.P. 15740, Cd. De México
+\nEmail: gercom@f-airmexico.com.mx
+\nPhone: +52(55)70985299
+
+</string>
+
+    <!--Sobre la Aplicacion-->
+    <string name="aboutA_tlt">About the Application</string>
+    <string name="aboutA_txt1">Mexico Aerospace Fair</string>
+    <string name="aboutA_txt2">2022-2023</string>
+    <string name="aboutA_txt3">Version 1.0</string>
+    <string name="aboutA_txt4">Developers</string>
+
+    <!--POP UP Devs-->
+    <string name="devs_popup_tlt">Developers</string>
+    <string name="devs_popup_dir">Project Manager\nTTE.F.A.E.E.A Fernando Perez Valerio</string>
+    <string name="devs_popup_dev1">Ing. Sistemas Computacionales / Diego Hernandez</string>
+    <string name="devs_popup_dev2">Ing. Computacion / Karen Lizeth Rincon Chirinos</string>
+    <string name="devs_popup_dev3">Ing. Computacion / Luis Angel Juarez Sanchez</string>
+    <string name="devs_popup_dev4">Ing. Computacion / Miguel Angel Martinez Ulloa</string>
+    <string name="devs_popup_dev5">Lic. Negocios Internacionales / Abigayl Gomez Gomez</string>
+    <string name="devs_popup_dev6">Lic. Diseño Industrial / Erika Itzel Hernandez Flores</string>
+    <string name="devs_popup_dev7">Lic. Diseño Industrial / Brenda Daniela Vargas Luna</string>
+    <string name="devs_popup_dev8">Lic. Diseño Industrial / Sandra Martinez Guinto</string>
+    <string name="devs_popup_dev9">Lic. Diseño Industrial / Jorge Jaramillo Gonzalez</string>
+
+    <!--POP UP Idioma-->
+    <string name="idioma_popup_tlt">Language</string>
+    <string name="idioma_popup_op1">English</string>
+    <string name="idioma_popup_op2">Spanish</string>
+    <string name="idioma_popup_op3">French</string>
+
+    <!-- Menu Desplegable -->
+    <string name="MENU_TXT_NomUser">PILOT</string>
+    <string name="MENU_TXT_Inicio">Home</string>
+    <string name="MENU_TXT_FAMEX">FAMEX</string>
+    <string name="MENU_TXT_FRANCIA">FRANCE</string>
+    <string name="MENU_TXT_Evento">Event</string>
+    <string name="MENU_TXT_Itinerario">My Itinerary</string>
+    <string name="MENU_TXT_Restaurantes">Restaurants</string>
+    <string name="MENU_TXT_Espectaculo">Air Show</string>
+    <string name="MENU_TXT_MUMA">FAMEX AT MUMA</string>
+    <string name="MENU_TXT_Accesos">Priority Access</string>
+    <string name="MENU_TXT_Sanitizacion">Sanitization</string>
+    <string name="MENU_TXT_PREFMX">PREFAMEX</string>
+    <string name="MENU_TXT_Config">Settings</string>
+
+</resources>

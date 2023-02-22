@@ -1,0 +1,155 @@
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="18dp"
+    app:cardElevation="0dp"
+    android:layout_marginTop="10dp"
+    app:cardBackgroundColor="@color/transparencia"
+    android:background="@drawable/bannerfoodcourt"
+    app:cardUseCompatPadding="true">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bannerfoodcourt"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView_food"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_centerInParent="true"
+                android:layout_margin="15dp"
+                android:src="@drawable/iconosporquemexico4" />
+
+
+            <LinearLayout
+                android:id="@+id/lltcardcchalets"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_centerInParent="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginLeft="1dp"
+                android:layout_marginTop="29dp"
+                android:layout_marginEnd="10dp"
+                android:layout_toEndOf="@+id/imageView_food"
+                android:layout_toRightOf="@+id/imageView_food"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:id="@+id/txtnombrefood"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/txtPDFfootcourt"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="4dp"
+                        android:layout_marginBottom="5dp"
+                        android:text="TextView"
+                        android:textAlignment="textStart"
+                        android:textColor="@color/white"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:visibility="gone"/>
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/icono1"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="2dp"
+                        android:textAlignment="textEnd"
+                        android:visibility="visible"
+                        app:srcCompat="@drawable/iconobottle" />
+
+                    <ImageView
+                        android:id="@+id/icono2"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="2dp"
+                        android:textAlignment="textEnd"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/iconobottle" />
+
+                    <ImageView
+                        android:id="@+id/icono3"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="2dp"
+                        android:textAlignment="textEnd"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/iconobottle" />
+
+                    <ImageView
+                        android:id="@+id/icono4"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="2dp"
+                        android:textAlignment="textEnd"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/iconobottle" />
+
+                    <ImageView
+                        android:id="@+id/icono5"
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_margin="2dp"
+                        android:textAlignment="textEnd"
+                        android:visibility="invisible"
+                        app:srcCompat="@drawable/iconobottle" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/iconoPDFmenu"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="-9dp"
+                android:layout_marginTop="9dp"
+                android:layout_marginEnd="9dp"
+                android:layout_marginBottom="9dp"
+                android:layout_toEndOf="@+id/lltcardcchalets"
+                app:srcCompat="@drawable/menufoodcourtboton" />
+        </RelativeLayout>
+    </LinearLayout>
+</androidx.cardview.widget.CardView>
+

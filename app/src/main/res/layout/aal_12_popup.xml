@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/transparencia"
+    tools:context=".popups.base.fragPopupVentana">
+
+    <RelativeLayout
+        android:id="@+id/constraintLayout7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/btnClosePopEva"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            app:srcCompat="@drawable/eva_btn_pop" />
+
+
+        <LinearLayout
+            android:id="@+id/constraintLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/btnClosePopEva"
+            android:background="@drawable/eva_pop_fondo"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center|center_horizontal"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/esp_pop_1_txt_titulo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:fontFamily="@font/plateiabold"
+                        android:text="@string/esp_popup_tlt"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+                        android:textSize="20sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+
+                    <ImageView
+                        android:id="@+id/imgWall1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="15dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/eva_pop_f1" />
+
+                    <ImageView
+                        android:id="@+id/imgWall2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/eva_pop_f2" />
+
+                    <ImageView
+                        android:id="@+id/imgWall3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="5dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/eva_pop_f3" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="3"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:id="@+id/imgWall4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="15dp"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/eva_pop_f5" />
+
+                    <ImageView
+                        android:id="@+id/imgWall5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true"
+                        android:cropToPadding="false"
+                        android:scaleType="fitXY"
+                        app:srcCompat="@drawable/eva_pop_f4" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_weight="1"
+                    android:gravity="center_horizontal"
+                    android:orientation="horizontal">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <ImageView
+                            android:id="@+id/bntDownloadW"
+                            android:layout_width="200dp"
+                            android:layout_height="match_parent"
+                            android:scaleType="fitXY"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/eva_pop_btn" />
+
+                        <TextView
+                            android:id="@+id/esp_pop_2_txt_btnDown"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="20dp"
+                            android:layout_marginTop="10dp"
+                            android:fontFamily="@font/plateiabold"
+                            android:text="@string/esp_popup_btn"
+                            android:textColor="@color/white"
+                            app:layout_constraintBottom_toBottomOf="@+id/bntDownloadW"
+                            app:layout_constraintStart_toStartOf="@+id/bntDownloadW"
+                            app:layout_constraintTop_toTopOf="@+id/bntDownloadW" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+</FrameLayout>

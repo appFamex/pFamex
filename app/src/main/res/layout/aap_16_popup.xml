@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".popups.base.fragPopupVentana"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_gravity="center"
+    android:id="@+id/container"
+    android:background="@color/transparencia">
+
+    <LinearLayout
+        android:id="@+id/lltfondopopexpoest"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginStart="30dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        android:animateLayoutChanges="true"
+        android:background="@drawable/gr_rutas_ppp_fondo"
+        android:backgroundTint="@color/transparencia"
+        android:backgroundTintMode="screen"
+        android:gravity="center|top"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="-48dp">
+
+        <TextView
+            android:id="@+id/textclose2"
+            android:layout_width="30dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="30dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center_horizontal"
+            android:text="X"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+
+        <ImageView
+            android:id="@+id/imgTransp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginRight="20dp"
+            android:adjustViewBounds="true"
+            android:cropToPadding="false"
+            android:src="@drawable/gr_rutas_ppp_img_camion"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/txtTransport"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="3dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="3dp"
+            android:background="@drawable/gr_rutas_ppp_fondoh"
+            android:fontFamily="@font/plateiabold"
+            android:gravity="center"
+            android:text="10:00 - 10:30"
+            android:textColor="@color/white"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintTop_toBottomOf="@+id/igvavionpopoexpoestatica1"
+            tools:layout_editor_absoluteX="0dp" />
+
+        <TextView
+            android:id="@+id/pfmx_rut_12_pop_1_txt_hora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28sp" />
+
+        <TextView
+            android:id="@+id/pfmx_rut_13_pop_2_txt_BaseDestino"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="TextView"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="28sp"
+            app:layout_constraintBottom_toTopOf="@+id/closeIc"
+            />
+
+        <ImageView
+            android:id="@+id/closeIc"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/circlebackground"
+            android:gravity="center"
+            android:src="@drawable/gr_rutas_ppp_icx"
+            android:textColor="@color/white"
+            app:layout_constraintTop_toBottomOf="@+id/pfmx_rut_13_pop_2_txt_BaseDestino"/>
+
+    </LinearLayout>
+</FrameLayout>
